@@ -5,10 +5,13 @@ public class Book {
     public int rating;
     public String title;
     public String author;
+
+
     
     public Book(int pRating){
-        title = "Grandmaster of Demonic Cultivation";
-        author = "MO Xiang Tong Xiu";
+        rating=pRating;
+        title = "The Giver";
+        author = "Lois Lowry";
         // TODO: set the instance variable to the parameter
 
     }
@@ -18,6 +21,8 @@ public class Book {
         System.out.println("author: " + author);
         //TODO: use System.out to print the values of the
         //      instance varibles so the user can see the review
+
+        System.out.println("Rating: " +rating);
 
 
     }
