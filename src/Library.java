@@ -1,11 +1,16 @@
-public class ConeShop {
+import java.sql.SQLOutput;
 
-    public Review[] allReviews;
+public class Library {
+
+    public String owner = "Mx. Bradford";
+    public Book[] allBooks;
     public static void main(String[] args) {
         //TODO: Make an instance of the main class
     }
 
-    public ConeShop(){
+    public Library(){
+
+        System.out.println("Welcome to "+ owner + "'s library!!!!!");
         //TODO: Give the array allReviews a size of 10
 
         //TODO: Fill the array allReviews with reviews with random ratings from 0 to 10 inclusive
